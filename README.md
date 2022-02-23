@@ -1,23 +1,5 @@
 ![Travis build status](https://api.travis-ci.org/sejda-pdf/webp-imageio.svg?branch=master)
 
-# Forked 仓库地址
-This is a fork from [luciad/webp-imageio](https://bitbucket.org/luciad/webp-imageio/)
-
-# 修改内容
-- 本地动态文件保存于jar包无需额外对jdk添加配置
-- 发布到中央仓库 (`net.ifok.image`:`webp4j` artifact)
-
-# 支持平台
-- windows (32, 64 bit)
-- linux (64 bit)
-- mac (64 bit)
-
---------------
-
-# 相关文章
-[Java Image I/O](http://docs.oracle.com/javase/7/docs/api/javax/imageio/package-summary.html) reader and writer for the
-[Google WebP](https://developers.google.com/speed/webp/) image format.
-
 
 
 # 使用说明
@@ -89,6 +71,26 @@ writer.setOutput(new FileImageOutputStream(new File("output.webp")));
 // 编码
 writer.write(null, new IIOImage(image, null, null), writeParam);
 ```
+
+
+
+# Forked 仓库地址
+This is a fork from [luciad/webp-imageio](https://bitbucket.org/luciad/webp-imageio/)
+# 相关文章
+[Java Image I/O](http://docs.oracle.com/javase/7/docs/api/javax/imageio/package-summary.html) reader and writer for the
+[Google WebP](https://developers.google.com/speed/webp/) image format.
+
+
+# 支持平台
+- windows (32, 64 bit)
+- linux (64 bit)
+- mac (64 bit)
+
+--------------
+
+# 修改内容
+- 本地动态文件保存于jar包无需额外对jdk添加配置
+- 发布到中央仓库 (`net.ifok.image`:`webp4j` artifact)
 
 # 许可
 webp-imageio is distributed under the [Apache Software License](https://www.apache.org/licenses/LICENSE-2.0) version 2.0.
